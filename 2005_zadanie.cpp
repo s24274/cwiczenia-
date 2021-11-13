@@ -1,3 +1,5 @@
+\\program nie dziala i nie wiem gdzie jest blad 
+
 #include <iostream>
 
 bool pierwsza(int a)
