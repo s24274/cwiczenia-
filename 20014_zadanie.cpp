@@ -35,7 +35,7 @@ auto main(int argc, char* argv[]) -> int
 			std::cout << "*";
 		}
 		std::cout << "\n";
-	}
+	
 
 return 0;
 }
