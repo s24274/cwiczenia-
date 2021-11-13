@@ -12,10 +12,10 @@ auto main(int argc, char* argv[]) -> int
 	if (argc != 0)
 	{
 	
-		auto const wysokosc = std::stoi(argv[1]);
+		auto const szerokosc = std::stoi(argv[1]);
 		
     
-		for (int i = 0; i <= wysokosc; i++)
+		for (int i = 0; i <= szzerokosc; i++)
 			{
 
 				for (int j = 1; j <= i; j++)
