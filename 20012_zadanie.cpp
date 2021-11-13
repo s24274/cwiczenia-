@@ -15,7 +15,7 @@ auto main(int argc, char* argv[]) -> int
 		auto const szerokosc = std::stoi(argv[1]);
 		
     
-		for (int i = 0; i <= szzerokosc; i++)
+		for (int i = 0; i <= szerokosc; i++)
 			{
 
 				for (int j = 1; j <= i; j++)
