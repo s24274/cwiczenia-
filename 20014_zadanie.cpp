@@ -1,12 +1,10 @@
-\\ program nie dziala i nie wiem, gdzie jest blad
-
 #include <iostream>
 #include <string>
 
 auto main(int argc, char* argv[]) -> int
 
 {
-	if (argc < 3)
+	if (argc == 0)
 	{
 	return 1;
 	}
@@ -22,8 +20,9 @@ auto main(int argc, char* argv[]) -> int
     
 		for (int i = 1; i <= wymiar - 2; i++)
 			{
+				std::cout << "*";
 
-				for (int j = 1; j <= wymiar; j++)
+				for (int j = 1; j <= wymiar - 2; j++)
 				{
 				std::cout << " ";
 				}
