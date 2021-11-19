@@ -8,8 +8,20 @@ int main()
 	std::cin >> b;
 	std::cin >> s;
 	
-	for (int i =a; i < b; i+=s)
-	std::cout << i << " ";
-	
+	 if (s > 0)
+		{
+			for (int i =a; i < b; i+=s)
+			std::cout << i << " ";
+		}
+		
+	else if  (s < 0) 
+		{
+			for (int i = a; i < b; i-=s)
+			std::cout << i << " ";
+		}
+		
+	else 
+		std::cout << "s nie  może być równe 0!";
+		
+
 return 0;
-}
