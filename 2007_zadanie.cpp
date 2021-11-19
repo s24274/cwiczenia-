@@ -4,14 +4,19 @@ int main()
 { 
 
 	int limit, dzielnik;
-	int suma = 1;
+	int suma = 0;
 	
 	std::cout << "Podaj dwie liczby: ";
 	std::cin >> limit;
 	std::cin >> dzielnik;
 	
 	for ( int i=1; i<=limit; i++ )
-	suma = suma + i;
+	{
+		if (i%dzielnik == 0)
+		{
+			suma = suma + i;
+		}
+	}
 	std::cout << "Suma = " << suma << " ";
 		
 	return 0;
